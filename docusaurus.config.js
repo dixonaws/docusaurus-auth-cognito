@@ -138,7 +138,8 @@ const config = {
     [
       "docusaurus-plugin-dotenv",
       {
-        path: process.env.ENV !== 'localhost' ? "./.env.local" : undefined,
+        // path: process.env.ENV !== 'localhost' ? "./.env.local" : undefined,
+        path: "./.env.local",
         systemvars: true,
       },
     ],
